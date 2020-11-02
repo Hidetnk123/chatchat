@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+}
+
+.side-bar {
+  background-color: #ece68d;
+  width: 300px;
+  height: 100vh;
+}
+
+.side-bar-header {
+  background-color: aquamarine;
+  height: 100px;
+}
+
+.side-bar-room {
+  background-color: rgb(87, 121, 87);
+  height: calc(100% - 100px);
+  overflow: scroll;
+}
+
+.main-bar {
+  background-color: #3f5b80;
+  width: calc(100% - 300px);
+  height: 100vh;
+}
+
+.main-bar-header {
+  background-color: rgb(106, 129, 121);
+  height: 100px;
+}
+
+.main-bar-chat {
+  background-color: rgb(81, 88, 86);
+  height: calc(100% - 100px - 90px);
+
+}
+
+.main-bar-message {
+  background-color: rgb(167, 120, 151);
+  height: 90px;
+}
