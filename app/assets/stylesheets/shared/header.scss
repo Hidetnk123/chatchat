@@ -1,30 +1,33 @@
-  /* タイトル */
+* {
+  box-sizing: border-box;
+}
+
 .top-page-header {
   width: 100vw;
 }
 
+.chat-top-page {
+  text-align: center;
+  background-color: rgb(114, 110, 110);
+  padding: 20px;
+}
+
 .product-icon {
-  font-size: 30px;
-  margin: 5px, 10vw;
+  font-size: 80px;
   padding-top: 5px;
   text-align: center;
   text-decoration: none;
-  color: #010079;
-  text-shadow: 0 0 5px white;
-  border-left: double 15px #010079;
-  border-right: double 15px #010079;
-  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
-  background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  color: #f8f8f8;
 }
- /* //タイトル */
 
-.nav {
+.nav-one {
   font-size: 18px;
   width: 100%;
-  margin-top: 2vh;
+  margin: 5vh;
+  display: flex;
+  justify-content: space-around;
 }
 
- /* 左リスト */
 .lists-left {
   display: flex;
   min-width: 200px;
@@ -39,9 +42,7 @@
   background-image: -webkit-linear-gradient(left, #209cff 0%, #68e0cf 100%);
   background-image: linear-gradient(to right, #209cff 0%, #68e0cf 100%);
 }
- /* //左リスト */
 
-  /* 右リスト */
 .lists-right {
   display: flex;
   list-style: none;
@@ -106,4 +107,3 @@
   background-image: -webkit-linear-gradient(left, #209cff 0%, #68e0cf 100%);
   background-image: linear-gradient(to right, #209cff 0%, #68e0cf 100%);
 }
- /* //右リスト */
