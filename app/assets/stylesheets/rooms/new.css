@@ -60,3 +60,8 @@
   float: right;
   width: 70%;
 }
+
+select {
+  width: 500px;
+  height: 50px;
+}
