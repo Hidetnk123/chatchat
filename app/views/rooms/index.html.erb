@@ -1,5 +1,13 @@
 <%= render "shared/header" %>
-
+  <div class="rooms-index">
+  <% current_user.rooms.each do |room| %>
+    <div class="room-index">
+      <div class="room-name-index">
+        <%= link_to room.name, messages_path(room) %>
+      </div>
+    </div>
+  <% end %>
+  </div>
 
 
 

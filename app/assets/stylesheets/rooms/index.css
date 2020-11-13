@@ -1,0 +1,9 @@
+.rooms-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rooms-index>.room-index {
+  padding: 1vw;
+}
