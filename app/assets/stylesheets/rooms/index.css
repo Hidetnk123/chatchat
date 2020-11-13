@@ -7,3 +7,7 @@
 .rooms-index>.room-index {
   padding: 1vw;
 }
+
+.room-name-index a{
+  text-decoration: none;
+}
