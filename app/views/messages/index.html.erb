@@ -10,16 +10,13 @@
     </div>
 
     <div class='side-bar-room'>
-      <div class="room">
-        <div class="room-name">
-          <a href="#">room1</a>
+      <% current_user.rooms.each do |room| %>
+        <div class="room">
+          <div class="room-name">
+            <a href="#"><%= room.name %></a>
+          </div>
         </div>
-      </div>
-      <div class="room">
-        <div class="room-name">
-          <a href="#">room2</a>
-        </div>
-      </div>
+      <% end %>
     </div>
   </div>
 
