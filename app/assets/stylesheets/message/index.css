@@ -128,11 +128,12 @@
   font-size: 17px;
 }
 
-.main-bar-message {
-  background-color: rgb(167, 120, 151);
+.form {
+  background-color: #DDDDDD;
   height: 90px;
-  padding: 15px 20px;
+  padding: 20px 40px;
   display: flex;
+  box-sizing: border-box;
 }
 
 .form-input {
